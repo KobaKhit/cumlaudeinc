@@ -4,6 +4,43 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /*My CSS*/
+ 
+ .navbar {
+background: transparent;
+border:0;
+margin-bottom: 0;*/
+-webkit-transition: background .5s ease-in-out,height .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,height .5s ease-in-out;
+transition: background .5s ease-in-out,height .5s ease-in-out;
+}
+.navbar .nav > li > a {
+    color:  white;
+}
+.navbar .navbar-brand {
+padding: 30px 15px 0 15px;
+color:white;
+/*height: 142px;
+width:270px;*/
+-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+transition: background .5s ease-in-out,padding .5s ease-in-out;
+/*display: block;*/
+}
+
+.navbar.top-nav-collapse {
+background:black;
+-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+transition: background .5s ease-in-out,padding .5s ease-in-out;
+/*height:104px;*/
+}
+
+.navbar.top-nav-collapse .navbar-brand {
+padding: 16px 15px;
+}
+ /* End my CSS*/
+
 body,
 html {
     width: 100%;
@@ -23,6 +60,7 @@ h6 {
 
 .topnav {
     font-size: 14px; 
+
 }
 
 .lead {
