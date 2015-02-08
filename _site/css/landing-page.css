@@ -5,14 +5,17 @@
  */
 
  /*My CSS*/
+ hr {
+    background-color: black; height: 2px; border: 0; 
+ }
  
  .navbar {
 background: transparent;
 border:0;
 margin-bottom: 0;*/
--webkit-transition: background .5s ease-in-out,height .5s ease-in-out;
--moz-transition: background .5s ease-in-out,height .5s ease-in-out;
-transition: background .5s ease-in-out,height .5s ease-in-out;
+-webkit-transition: background .5s ease-in-out;
+-moz-transition: background .5s ease-in-out;
+transition: background .5s ease-in-out;
 }
 .navbar .nav > li > a {
     color:  white;
@@ -71,13 +74,13 @@ h6 {
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
-    text-align: center;
+    /*text-align: center;*/
     color: #f8f8f8;
     background: url(../img/cumlaudelogo1080.png) no-repeat center center;
     background-size: contain;
 }
 
-.intro-message {
+.intro-message {color:black;
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -154,7 +157,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/photo.jpg) no-repeat center center;
     background-size: cover;
 }
 
