@@ -21,7 +21,7 @@ transition: background .5s ease-in-out;
     color:  white;
 }
 .navbar .navbar-brand {
-padding: 0px 15px 0 15px;
+padding: 16px 15px 0 15px;
 color:white;
 /*height: 142px;
 width:270px;*/
