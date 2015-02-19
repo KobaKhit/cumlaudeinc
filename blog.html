@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="container: body">
+    <img class="img-responsive img-hover" src="img/photo.jpg">
+</div>
+
+<div class = 'container'>
+	<div class = 'row'>	
+		<div class="col-md-6">	
+		{% for post in site.posts %}
+		                        
+		    <h3>
+		        <a href="{{ post.url }}" style = 'color:black'>{{ post.title }}</a>
+		    </h3>
+
+		    <p>
+		        by {{post.author}}
+		        <font size="2">|  <i class="glyphicon glyphicon-tags"></i>&nbsp;
+		            {% for cat in post.categories %}
+		                    <text style='color:black;padding: 0px 5px 1px;border-radius: 10px;background-color:white;border:1px solid'>{{ cat }}</text>
+		            {% endfor %}
+		        </font>
+		    </p>
+		    <p>{{ post.content | truncatewords: 50 }}</p>
+		    <a class="btn btn-primary" href="{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
