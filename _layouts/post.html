@@ -2,7 +2,7 @@
 layout: default
 ---
 
-    <div class='container'>
+    <div class='container' style = 'padding-top:3%'>
         <!-- Post Content -->
         <div class='row'>
             <div style='font-size:17px;' class='post-content col-lg-8 col-lg-offset-2'>
@@ -10,7 +10,8 @@ layout: default
                     {{page.title}}
                     <small>
                         by {{page.author}}
-                    </small>
+                        <small>| {{ page.date|date:"%b %d, %Y" }}</small>
+                    </small> 
                 </h1>
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
                 <div class="addthis_sharing_toolbox"></div>
