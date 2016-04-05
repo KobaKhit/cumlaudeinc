@@ -24,7 +24,7 @@ layout: default
 		        </font>
 		    </p>
 		    <p>{{ post.content | truncatewords: 50 }}</p>
-		    <a class="btn btn-primary" href="{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
+		    <a class="btn btn-primary" href="{{ post.url | prepend: site.baseurl }}">Read More <i class="fa fa-angle-right"></i></a>
 		</div>
 		{% endfor %}
 	</div>
