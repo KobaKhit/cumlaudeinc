@@ -7,5 +7,5 @@
 
 # Site settings
 email: kobakhit@gmail.com
-baseurl: "/cumlaude" # the subpath of your site, e.g. /blog
+baseurl: "/cumlaudeinc" # the subpath of your site, e.g. /blog
 url: "http://www.kobakhit.com/" # the base hostname & protocol for your site
